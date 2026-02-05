@@ -1,0 +1,4 @@
+name: checkpoint
+display_name: Checkpoint
+short_description: ctx save 总结对话并存储，ctx load 从 ctx 读回。
+default_prompt: 用户说 ctx save 时，总结当前对话内容、生成时间戳标题，按 SKILL 流程指导用户用 ctx 保存；用户说 ctx load 时，指导用户用 ctx list / ctx insert 读回已保存的 checkpoint。
